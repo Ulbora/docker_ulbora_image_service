@@ -1,5 +1,5 @@
 FROM alpine:latest
-ENV PROJECT_REPOSITORY_RELEASE https://api.github.com/repos/Ulbora/UlboraImageService/tarball/1.0.3
+ENV PROJECT_REPOSITORY_RELEASE https://api.github.com/repos/Ulbora/UlboraImageService/tarball/1.0.4
 
 RUN apk add --update
 RUN apk add --update curl

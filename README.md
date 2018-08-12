@@ -1,5 +1,5 @@
 # Docker Ulbora Image Service
-- 1.0.0, latest[ (Dockerfile)](https://github.com/Ulbora/docker_ulbora_image_service/blob/master/Dockerfile)
+- 1.0.4, latest[ (Dockerfile)](https://github.com/Ulbora/docker_ulbora_image_service/blob/master/Dockerfile)
 
 This is Docker Image server running on Alpine
 
