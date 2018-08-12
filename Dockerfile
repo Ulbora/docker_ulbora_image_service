@@ -6,6 +6,8 @@ RUN apk add --update curl
 RUN mkdir /nodeapps
 RUN apk add --update nodejs
 
+RUN apk add --update nodejs-npm
+
 RUN npm install forever -g 
 RUN curl -sf -o /nodeapps/images.tar.gz -L $PROJECT_REPOSITORY_RELEASE
 RUN tar -xzvf /nodeapps/images.tar.gz -C /nodeapps
